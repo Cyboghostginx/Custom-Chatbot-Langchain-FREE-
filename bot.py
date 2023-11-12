@@ -27,6 +27,7 @@ texts = text_splitter.split_documents(documents)
 # To check if our chunks are loaded
 print(type(texts))
 print(texts[0])
+print("[+]=====[+]")
 print("[+]Done --> Splitting txt file to chunks")
 
 # Check amount of token of the loaded txt file
@@ -38,9 +39,10 @@ def num_tokens_from_string(string: str, encoding_name: str) -> int:
     encoding = tiktoken.get_encoding(encoding_name)
     num_tokens = len(encoding.encode(string))
     return num_tokens
-
-print("Number Of Token: ")
-num_tokens_from_string(content, "cl100k_base")
+    
+print("[+]=====[+]")
+numtoken = num_tokens_from_string(content, "cl100k_base")
+print("Number Of Token: " + numtoken)
 
 # Embedding the Chunks, and saving to a vectorstore
 embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5", max_length=512)
@@ -48,9 +50,10 @@ embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5", max_length=
 qdrant = Qdrant.from_documents(
     texts,
     embeddings,
-    path="./local_qdrant",
-    collection_name="db1",
+    path="./local_qdrant1",
+    collection_name="db2",
 )
+print("[+]=====[+]")
 print("[+]Done  --> Embedding the Chunks, and saving to a vectorstore")
 
 # Performing similarity search on the embedding
@@ -71,6 +74,7 @@ QA_CHAIN_PROMPT = PromptTemplate(
     input_variables=["context", "question"],
     template=template,
 )
+print("[+]=====[+]")
 print("[+]Done --> Preparing our chat model to make the similarity search result more human-like")
 
 # Choosing the free llama 7B for the task (Excellent)
@@ -79,6 +83,7 @@ chat_model = ChatOllama(
     verbose=True,
     callback_manager=CallbackManager([StreamingStdOutCallbackHandler()]),
 )
+print("[+]=====[+]")
 print("[+]Done --> Choosing the free llama 7B for the task (Excellent)")
 
 # Adding a retrieval QA
@@ -87,11 +92,13 @@ qa_chain = RetrievalQA.from_chain_type(
     retriever=qdrant.as_retriever(),
     chain_type_kwargs={"prompt": QA_CHAIN_PROMPT},
 )
+print("[+]=====[+]")
 print("[+]Done --> Adding a retrieval QA")
 print("[+]Go ahead and use the bot to answer any question from your documents")
 
 # We are now ready, and good to go to ask question based on our document, and get human like answer
 question = input("Enter Prompt: ")
+print("[+]=====[+]")
 print("Question: " + question)
 print("Answer ->>> ")
 result = qa_chain({"query": question})
