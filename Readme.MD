@@ -1,8 +1,8 @@
-# Project Title
+# Title
 
 Custom Chatbot Langchain (FREE)
 
-# Project Description
+# Description
 
 Make a bot that answers question from your txt file. Human like responses, and accurate using the llama 7B. Everything in this is free.
 
@@ -29,5 +29,6 @@ Make a bot that answers question from your txt file. Human like responses, and a
 
 ## Usage
 
+```bash
 python bot.py
-
+```
