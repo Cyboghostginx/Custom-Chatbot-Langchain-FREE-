@@ -40,10 +40,10 @@ python bot.py
 
 I used a macbook pro m1, 16gb ram for this.
 
-Splitting tx into chunks - Almost instantly
-Embedding finished in 1.6 seconds
-Similarity search - Almost instantly
-Chat model response - 20 seconds for the the llama 7b model.
+Splitting tx into chunks - Almost instantly<br>
+Embedding finished in 1.6 seconds<br>
+Similarity search - Almost instantly<br>
+Chat model response - 20 seconds for the the llama 7b model.<br>
 
 Note that when this is hosted on a better gpu, the chat model to would respind almost immediately.
 Thanks!
