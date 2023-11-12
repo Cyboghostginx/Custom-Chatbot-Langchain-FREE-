@@ -45,5 +45,5 @@ Embedding finished in 1.6 seconds<br>
 Similarity search - Almost instantly<br>
 Chat model response - 20 seconds for the the llama 7b model.<br>
 
-Note that when this is hosted on a better gpu, the chat model to would respind almost immediately.
+Note that when this is hosted on a better gpu, the chat model to would respond almost immediately.
 Thanks!
