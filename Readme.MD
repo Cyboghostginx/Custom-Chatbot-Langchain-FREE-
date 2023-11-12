@@ -8,19 +8,23 @@ Make a bot that answers question from your txt file. Human like responses, and a
 I have added a short txt file that has some few stuffs about the university of Iceland, and can answer few questions based on that txt file.
 
 ## Installation
+1. **Clone Repository:**
+```bash
+    git clone https://github.com/Cyboghostginx/Custom-Chatbot-Langchain-FREE-.git
+    ```
 
-1. **Ollama Installation:**
+2. **Ollama Installation:**
     ```bash
     curl https://ollama.ai/install.sh | sh
     ollama run llama2
     ```
 
-2. **Langchain Installation:**
+3. **Langchain Installation:**
     ```bash
     pip install git+https://github.com/langchain-ai/langchain.git@8d6faf56657070137a16669bc2420a08a5ab7f24#subdirectory=libs/langchain
     ```
 
-3. **Tiktoken Installation:**
+4. **Tiktoken Installation:**
     ```bash
     pip install tiktoken
     ```
