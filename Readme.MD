@@ -11,6 +11,7 @@ I have added a short txt file that has some few stuffs about the university of I
 1. **Clone Repository:**
     ```bash
     git clone https://github.com/Cyboghostginx/Custom-Chatbot-Langchain-FREE-.git
+    cd Custom-Chatbot-Langchain-FREE-
     ```
 
 2. **Ollama Installation:**
