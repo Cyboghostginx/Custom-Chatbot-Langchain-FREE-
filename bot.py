@@ -94,11 +94,17 @@ qa_chain = RetrievalQA.from_chain_type(
 )
 print("[+]=====[+]")
 print("[+]Done --> Adding a retrieval QA")
-print("[+]Go ahead and use the bot to answer any question from your documents")
+print("[+]Go ahead and use the bot to answer any question from your documents (use ctrl + c to end the bot chat)")
 
 # We are now ready, and good to go to ask question based on our document, and get human like answer
-question = input("Enter Prompt: ")
-print("[+]=====[+]")
-print("Question: " + question)
-print("Answer ->>> ")
-result = qa_chain({"query": question})
+while True:
+    try:
+        question = input("Enter Prompt: ")
+        print("Question: " + question)
+        print("Answer ->>> ")
+        result = qa_chain({"query": question})
+        print("\n")
+    except KeyboardInterrupt:
+        print("[+]==[+]")
+        print("Bye! : Ending the Bot Chat")
+        break
