@@ -42,7 +42,7 @@ def num_tokens_from_string(string: str, encoding_name: str) -> int:
     
 print("[+]=====[+]")
 numtoken = num_tokens_from_string(content, "cl100k_base")
-print("Number Of Token: " + numtoken)
+print("Number Of Token: " + str(numtoken))
 
 # Embedding the Chunks, and saving to a vectorstore
 embeddings = FastEmbedEmbeddings(model_name="BAAI/bge-base-en-v1.5", max_length=512)
