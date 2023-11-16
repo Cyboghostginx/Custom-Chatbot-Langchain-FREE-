@@ -2,11 +2,7 @@
 
 Custom Chatbot Langchain (FREE)
 
-<figure class="video_container">
-  <iframe src="https://youtu.be/PB7w9zhs9XM" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
-
-[![](https://markdown-videos-api.jorgenkh.no/youtube/dQw4w9WgXcQ)](https://youtu.be/PB7w9zhs9XM)
+[![](https://youtu.be/PB7w9zhs9XM)](https://youtu.be/PB7w9zhs9XM)
 
 
 # Description
