@@ -2,8 +2,6 @@
 
 Custom Chatbot Langchain (FREE)
 
-<video src='https://youtu.be/PB7w9zhs9XM' width=180/>
-
 # Description
 
 Make a bot that answers question from your txt file. Human like responses, and accurate using the llama 7B. Everything in this is free.
