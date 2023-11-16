@@ -2,10 +2,7 @@
 
 Custom Chatbot Langchain (FREE)
 
-[![](https://youtu.be/PB7w9zhs9XM)](https://youtu.be/PB7w9zhs9XM)
-
 [![Alt text](https://img.youtube.com/vi/PB7w9zhs9XM/0.jpg)](https://www.youtube.com/watch?v=PB7w9zhs9XM)
-
 
 # Description
 
