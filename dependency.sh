@@ -1,3 +1,6 @@
+#!/bin/bash
 
-git clone https://github.com/Cyboghostginx/Custom-Chatbot-Langchain-FREE-.git
-cd Custom-Chatbot-Langchain-FREE-
+pip install git+https://github.com/langchain-ai/langchain.git@8d6faf56657070137a16669bc2420a08a5ab7f24#subdirectory=libs/langchain
+pip install tiktoken
+pip install fastembed
+pip install qdrant-client
