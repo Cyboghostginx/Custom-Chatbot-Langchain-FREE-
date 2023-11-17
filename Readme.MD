@@ -31,10 +31,12 @@ I have added a short txt file that has some few stuffs about the university of I
     ```bash
     pip install tiktoken
     ```
+
 5. **FastEmbed Installation:**
     ```bash
     pip install fastembed
     ```
+
 6. **Qdrant-Client Installation:**
     ```bash
     pip install qdrant-client
