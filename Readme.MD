@@ -2,7 +2,7 @@
 
 Custom Chatbot Langchain (FREE)
 
-[![Google Colab][colab-badge]][semantic-url]
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/weiji14/deepbedmap/]
 <p>Check Out The Colab Project</p>
 <br>
 
