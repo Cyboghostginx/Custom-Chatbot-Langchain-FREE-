@@ -2,6 +2,10 @@
 
 Custom Chatbot Langchain (FREE)
 
+<a href="https://play.google.com/store/apps/details?id=com.gitpoint">
+    <img alt="Get it on Google Play" title="Google Play" src="http://i.imgur.com/mtGRPuM.png" width="140">
+</a>
+
 [![Alt text](https://img.youtube.com/vi/PB7w9zhs9XM/0.jpg)](https://www.youtube.com/watch?v=PB7w9zhs9XM)
 
 # Description
