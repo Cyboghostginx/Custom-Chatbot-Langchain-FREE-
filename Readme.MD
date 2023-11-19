@@ -2,9 +2,7 @@
 
 Custom Chatbot Langchain (FREE)
 
-<a href="https://play.google.com/store/apps/details?id=com.gitpoint">
-    <img alt="Get it on Google Play" title="Google Play" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fblog.tensorflow.org%2F2018%2F05%2Fcolab-easy-way-to-learn-and-use-tensorflow.html&psig=AOvVaw2mrBPgNjWeMdnea3DuoH8i&ust=1700468308025000&source=images&cd=vfe&ved=0CBIQjRxqFwoTCNjq7p3Qz4IDFQAAAAAdAAAAABAE" width="140">
-</a>
+[![Google Colab][colab-badge]][semantic-url]
 <p>Check Out The Colab Project</p>
 <br>
 
