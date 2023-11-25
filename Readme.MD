@@ -2,7 +2,8 @@
 
 Custom Chatbot Langchain (FREE)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]<br>https://colab.research.google.com/drive/1gOIpI6Z3j8CThYqVOgDdFJPertfSOppc?usp=sharing){:target="_blank"}<br>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gOIpI6Z3j8CThYqVOgDdFJPertfSOppc?usp=sharing){:target="_blank"}
+<br>
 <a href="https://colab.research.google.com/drive/1gOIpI6Z3j8CThYqVOgDdFJPertfSOppc?usp=sharing" target="_blank">Google Colab Project For The Bot</a>
 <p>Check Out The Colab Project</p>
 <br>
