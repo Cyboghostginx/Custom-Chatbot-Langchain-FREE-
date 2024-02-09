@@ -4,6 +4,7 @@ Custom Chatbot Langchain (FREE)
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1gOIpI6Z3j8CThYqVOgDdFJPertfSOppc?usp=sharing)
 <br>
+<p>In case you don't have a powerful computer for GPU, use the colab link above, and make sure you are using the T4 GPU on Google Collab.</p>
 <p>Check Out The Colab Project</p>
 <br>
 
